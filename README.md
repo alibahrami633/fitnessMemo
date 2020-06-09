@@ -70,22 +70,27 @@
 <br>
 
 
-<img src="https://github.com/alibahrami633/Burger/blob/master/public/assets/img/01.png" alt="deployed application image" />
+<img src="https://github.com/alibahrami633/fitnessMemo/blob/master/public/images/01.png" alt="deployed application image" />
 
 <hr />
 <br>
 
-<img src="https://github.com/alibahrami633/Burger/blob/master/public/assets/img/02.png" alt="deployed application image" />
+<img src="https://github.com/alibahrami633/fitnessMemo/blob/master/public/images/02.png" alt="deployed application image" />
 
 <hr />
 <br>
 
-<img src="https://github.com/alibahrami633/Burger/blob/master/public/assets/img/03.png" alt="deployed application image" />
+<img src="https://github.com/alibahrami633/fitnessMemo/blob/master/public/images/03.png" alt="deployed application image" />
 
 <hr />
 <br>
 
-<img src="https://github.com/alibahrami633/Burger/blob/master/public/assets/img/04.png" alt="deployed application image" />
+<img src="https://github.com/alibahrami633/fitnessMemo/blob/master/public/images/04.png" alt="deployed application image" />
+
+<hr />
+<br>
+
+<img src="https://github.com/alibahrami633/fitnessMemo/blob/master/public/images/05.png" alt="deployed application image" />
 
 <hr />
 
