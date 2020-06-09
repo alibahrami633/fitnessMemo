@@ -28,10 +28,10 @@ const API = {
       });
 
       let json = await res.json();
+      console.log("----------->" + json);
       json = JSON.stringify(json).replace(/"/g, '').replace(/, /g, '<br /><br />').replace('Validation failed: ', '');
 
       if (res.status == 422) {
-        // console.log(json);
         $(".content p").html(json);
         $('.ui.basic.modal').modal('show');
         // alert(json);

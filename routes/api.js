@@ -51,7 +51,7 @@ router.put("/api/workouts/:id", async function (req, res) {
     try {
         let id = req.params.id;
         const { type, name, weight, sets, reps, duration, distance } = req.body;
-
+        // console.log("id=" + id + " | body=" + JSON.stringify(req.body));
         let exercise;
 
         if (type === "cardio") {

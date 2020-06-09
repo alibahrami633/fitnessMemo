@@ -6,43 +6,42 @@ let day = new Date().setDate(new Date().getDate());
 
 const WorkoutSchema = new Schema({
     day: {
-        type: Date,
+        type: mongoose.Schema.Types.Date,
         default: day
     },
     exercises: [
         {
             type: {
-                type: String,
+                type: mongoose.Schema.Types.String,
                 trim: true,
-                required: true,
-                unique: true
+                enum: ["cardio", "resistance"]
             },
             name: {
-                type: String,
+                type: mongoose.Schema.Types.String,
                 trim: true
             },
             duration: {
-                type: Number,
+                type: mongoose.Schema.Types.Number,
                 min: [0, "Don't be an idiot! :D."],
                 max: [300, "You're bluffing! pffff..."]
             },
             distance: {
-                type: Number,
+                type: mongoose.Schema.Types.Number,
                 min: [0, "Don't be an idiot! :D."],
                 max: [100, "You're bluffing! pffff..."]
             },
             weight: {
-                type: Number,
+                type: mongoose.Schema.Types.Number,
                 min: [0, "Don't be an idiot! :D."],
                 max: [1000, "You're bluffing! pffff..."]
             },
             reps: {
-                type: Number,
+                type: mongoose.Schema.Types.Number,
                 min: [0, "Don't be an idiot! :D."],
                 max: [50, "You're gonna kill yourself dude!"]
             },
             sets: {
-                type: Number,
+                type: mongoose.Schema.Types.Number,
                 min: [0, "Don't be an idiot! :D."],
                 max: [50, "You're gonna kill yourself dude!"]
             },
